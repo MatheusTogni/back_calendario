@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    "http://localhost:3001" 
+    "https://front-calendario.vercel.app" 
   ],
 }));
 app.use(express.json());
