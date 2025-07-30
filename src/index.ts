@@ -8,6 +8,7 @@ app.use(cors({
   origin: [
     "https://front-calendario.vercel.app" 
   ],
+  methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
 }));
 app.use(express.json());
 
